@@ -1,0 +1,297 @@
+.analysis-history-page {
+    padding-top: var(--spacing-4);
+    padding-bottom: var(--spacing-12);
+}
+
+.analysis-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-6);
+    margin-top: var(--spacing-8);
+}
+
+.analysis-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: var(--spacing-6);
+    border-radius: var(--radius-xl);
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.analysis-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-light);
+}
+
+.analysis-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--spacing-6);
+    border-bottom: 1px solid var(--bg-secondary);
+    padding-bottom: var(--spacing-4);
+}
+
+.analysis-meta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-1);
+}
+
+.date-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    font-size: var(--font-size-xs);
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    padding: var(--spacing-1) var(--spacing-3);
+    border-radius: var(--radius-full);
+    width: fit-content;
+    font-weight: 600;
+}
+
+.analysis-title {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.analysis-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+}
+
+.analysis-summary h4 {
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    font-weight: 700;
+    margin-bottom: var(--spacing-2);
+}
+
+.analysis-summary p {
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.analysis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-8);
+}
+
+.analysis-section header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-4);
+}
+
+.analysis-section h5 {
+    margin: 0;
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.analysis-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+}
+
+.analysis-section li {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    position: relative;
+    padding-left: var(--spacing-6);
+    line-height: 1.5;
+}
+
+.analysis-section li::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.skills-detected h5 {
+    margin-bottom: var(--spacing-4);
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    font-weight: 700;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-2);
+}
+
+.skill-pill {
+    background: var(--primary-light);
+    color: var(--primary-color);
+    padding: var(--spacing-1) var(--spacing-4);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+}
+
+.analysis-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--spacing-8);
+    padding-top: var(--spacing-4);
+    border-top: 1px solid var(--bg-secondary);
+}
+
+.match-stats {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.match-stats strong {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.loading-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-16);
+    color: var(--text-secondary);
+}
+
+.loader {
+    border: 3px solid var(--bg-secondary);
+    border-top: 3px solid var(--primary-color);
+    border-radius: var(--radius-full);
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-bottom: var(--spacing-4);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-16);
+    text-align: center;
+    gap: var(--spacing-4);
+    background: var(--bg-color);
+    border-radius: var(--radius-xl);
+    border: 2px dashed var(--border-color);
+    color: var(--text-secondary);
+    margin-top: var(--spacing-8);
+}
+
+.empty-state h3 {
+    color: var(--text-primary);
+    margin: 0;
+    font-weight: 800;
+}
+
+.text-success {
+    color: var(--accent-success);
+}
+
+.text-warning {
+    color: var(--accent-warning);
+}
+
+.text-muted {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.matched-jobs-section {
+    margin-top: var(--spacing-8);
+    padding-top: var(--spacing-8);
+    border-top: 1px dashed var(--border-color);
+}
+
+.matched-jobs-section h5 {
+    font-size: var(--font-size-xs);
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-4);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+.matched-jobs-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-3);
+}
+
+.matched-job-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg-secondary);
+    padding: var(--spacing-4) var(--spacing-6);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    transition: all 0.2s;
+}
+
+.matched-job-item:hover {
+    border-color: var(--primary-color);
+    transform: translateX(4px);
+}
+
+.matched-job-item h6 {
+    margin: 0;
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.matched-job-item p {
+    margin: 0;
+    font-size: var(--font-size-xs);
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.job-score .score-ring {
+    background: var(--primary-color);
+    color: white;
+    font-size: var(--font-size-xs);
+    font-weight: 800;
+    padding: var(--spacing-1) var(--spacing-3);
+    border-radius: var(--radius-full);
+    box-shadow: var(--shadow-sm);
+}

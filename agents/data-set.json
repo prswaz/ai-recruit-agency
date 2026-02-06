@@ -1,0 +1,300 @@
+[
+  {
+    "input": "Experienced Data Scientist with 5 years of expertise in Python, machine learning, and data analysis. Led multiple data-driven projects in the finance industry, building predictive models and improving data pipelines.",
+    "output": {
+      "technical_skills": ["Python", "Machine Learning", "Data Analysis", "Data Pipelines"],
+      "years_of_experience": 5,
+      "education": {"level": "Bachelor's", "field": "Computer Science"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Built predictive models for financial forecasting",
+        "Improved data pipeline efficiency by 30%",
+        "Led a team of 4 data scientists"
+      ],
+      "domain_expertise": ["Finance", "Healthcare"],
+      "certifications": ["Certified Data Scientist"]
+    }
+  },
+  {
+    "input": "Senior Software Engineer with 8 years of experience in full-stack development, specializing in Java, Spring Boot, and microservices. Experienced in designing scalable applications for large-scale enterprises.",
+    "output": {
+      "technical_skills": ["Java", "Spring Boot", "Microservices", "Full-stack Development"],
+      "years_of_experience": 8,
+      "education": {"level": "Master's", "field": "Software Engineering"},
+      "experience_level": "Senior",
+      "key_achievements": [
+        "Designed and implemented scalable microservices architecture",
+        "Mentored junior developers",
+        "Reduced system downtime by 40% through code optimization"
+      ],
+      "domain_expertise": ["E-commerce", "Retail"],
+      "certifications": ["Oracle Certified Java Programmer"]
+    }
+  },
+  {
+    "input": "Data Analyst with 3 years of experience in SQL, R, and statistical analysis. Worked on data-driven projects in marketing and advertising, producing reports to improve customer engagement.",
+    "output": {
+      "technical_skills": ["SQL", "R", "Statistical Analysis"],
+      "years_of_experience": 3,
+      "education": {"level": "Bachelor's", "field": "Statistics"},
+      "experience_level": "Junior",
+      "key_achievements": [
+        "Developed statistical models for marketing campaigns",
+        "Improved customer engagement by 25% through data insights"
+      ],
+      "domain_expertise": ["Marketing", "Advertising"],
+      "certifications": ["Data Analytics Professional"]
+    }
+  },
+  {
+    "input": "Software Engineer with 7 years of experience in backend development using C#, ASP.NET, and SQL Server. Skilled in developing enterprise-level applications and improving system performance.",
+    "output": {
+      "technical_skills": ["C#", "ASP.NET", "SQL Server", "Backend Development"],
+      "years_of_experience": 7,
+      "education": {"level": "Bachelor's", "field": "Information Technology"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Developed backend services using ASP.NET and SQL Server",
+        "Automated daily reporting processes",
+        "Increased system performance by 35%"
+      ],
+      "domain_expertise": ["Healthcare", "Software Development"],
+      "certifications": []
+    }
+  },
+  {
+    "input": "Frontend Developer with 4 years of experience in JavaScript, React, and Node.js. Specializes in building responsive web applications and improving user interfaces for e-commerce platforms.",
+    "output": {
+      "technical_skills": ["JavaScript", "React", "Node.js", "Frontend Development"],
+      "years_of_experience": 4,
+      "education": {"level": "Bachelor's", "field": "Web Development"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Developed web applications using React and Node.js",
+        "Improved front-end performance by 20%",
+        "Led the migration of the e-commerce site to React"
+      ],
+      "domain_expertise": ["Web Development", "E-commerce"],
+      "certifications": []
+    }
+  },
+  {
+    "input": "Project Manager with 6 years of experience in managing software projects, including coordinating teams and delivering products on time and within budget. Experienced with Agile methodologies.",
+    "output": {
+      "technical_skills": ["Project Management", "Agile", "Team Coordination", "Time Management"],
+      "years_of_experience": 6,
+      "education": {"level": "Bachelor's", "field": "Business Administration"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Led multiple software projects to successful completion",
+        "Reduced project delays by 15% through process improvements"
+      ],
+      "domain_expertise": ["Software Development", "Project Management"],
+      "certifications": ["Certified ScrumMaster"]
+    }
+  },
+  {
+    "input": "UX Designer with 3 years of experience in designing user interfaces for mobile and web applications. Skilled in wireframing, prototyping, and conducting user research to improve usability.",
+    "output": {
+      "technical_skills": ["UX Design", "Wireframing", "Prototyping", "User Research"],
+      "years_of_experience": 3,
+      "education": {"level": "Bachelor's", "field": "Design"},
+      "experience_level": "Junior",
+      "key_achievements": [
+        "Improved app usability by 25% through redesign",
+        "Led user research sessions to gather insights"
+      ],
+      "domain_expertise": ["Design", "Technology"],
+      "certifications": []
+    }
+  },
+  {
+    "input": "Marketing Manager with 10 years of experience in digital marketing, including SEO, SEM, and social media campaigns. Proven track record of increasing brand awareness and driving traffic.",
+    "output": {
+      "technical_skills": ["SEO", "SEM", "Digital Marketing", "Social Media Marketing"],
+      "years_of_experience": 10,
+      "education": {"level": "Master's", "field": "Marketing"},
+      "experience_level": "Senior",
+      "key_achievements": [
+        "Increased website traffic by 50% through SEO",
+        "Successfully launched social media campaigns with 10K+ engagement"
+      ],
+      "domain_expertise": ["Marketing", "E-commerce"],
+      "certifications": ["Google Ads Certified", "HubSpot Inbound Marketing Certified"]
+    }
+  },
+  {
+    "input": "Data Engineer with 5 years of experience in ETL, data warehousing, and cloud computing. Expertise in Python, SQL, and AWS. Built data pipelines that improved data processing times by 40%.",
+    "output": {
+      "technical_skills": ["ETL", "Data Warehousing", "Cloud Computing", "Python", "SQL", "AWS"],
+      "years_of_experience": 5,
+      "education": {"level": "Bachelor's", "field": "Computer Science"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Built data pipelines that improved data processing times by 40%",
+        "Designed cloud-based data infrastructure using AWS"
+      ],
+      "domain_expertise": ["Data Engineering", "Cloud Computing"],
+      "certifications": []
+    }
+  },
+  {
+    "input": "Full Stack Developer with 6 years of experience in developing applications using JavaScript, React, Node.js, and MongoDB. Passionate about creating scalable and efficient web applications.",
+    "output": {
+      "technical_skills": ["Full Stack Development", "JavaScript", "React", "Node.js", "MongoDB"],
+      "years_of_experience": 6,
+      "education": {"level": "Bachelor's", "field": "Software Engineering"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Developed and deployed scalable web applications",
+        "Optimized back-end code to improve performance by 20%"
+      ],
+      "domain_expertise": ["Web Development", "Software Engineering"],
+      "certifications": []
+    }
+  },
+  {
+    "input": "Cloud Architect with 10 years of experience designing and implementing cloud solutions for large-scale enterprises. Expertise in AWS, Azure, and Google Cloud. Led the cloud migration of critical business systems for multiple Fortune 500 companies.",
+    "output": {
+      "technical_skills": ["AWS", "Azure", "Google Cloud", "Cloud Architecture"],
+      "years_of_experience": 10,
+      "education": {"level": "Master's", "field": "Computer Science"},
+      "experience_level": "Senior",
+      "key_achievements": [
+        "Led cloud migration for Fortune 500 companies",
+        "Optimized cloud infrastructure to reduce costs by 25%",
+        "Implemented disaster recovery plans that reduced downtime by 50%"
+      ],
+      "domain_expertise": ["Cloud Computing", "Enterprise IT"],
+      "certifications": ["AWS Certified Solutions Architect", "Microsoft Certified: Azure Solutions Architect"]
+    }
+  },
+  {
+    "input": "Cybersecurity Analyst with 6 years of experience protecting corporate systems from cyber threats. Proficient in network security, penetration testing, and vulnerability assessments. Experienced in managing security incidents and responding to breaches.",
+    "output": {
+      "technical_skills": ["Network Security", "Penetration Testing", "Vulnerability Assessment", "Incident Management"],
+      "years_of_experience": 6,
+      "education": {"level": "Bachelor's", "field": "Cybersecurity"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Led security audits that improved system security by 40%",
+        "Managed response to 3 major security breaches",
+        "Developed employee cybersecurity awareness program"
+      ],
+      "domain_expertise": ["Cybersecurity", "IT Security"],
+      "certifications": ["Certified Ethical Hacker (CEH)", "CompTIA Security+"]
+    }
+  },
+  {
+    "input": "HR Specialist with 4 years of experience in talent acquisition, employee relations, and HR administration. Proficient in recruiting, onboarding, and organizing employee engagement initiatives to improve retention.",
+    "output": {
+      "technical_skills": ["Recruiting", "Employee Relations", "Onboarding", "HR Administration"],
+      "years_of_experience": 4,
+      "education": {"level": "Bachelor's", "field": "Human Resources"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Successfully reduced employee turnover by 15% through targeted engagement",
+        "Managed recruitment for a 50+ person team in under 6 months",
+        "Implemented onboarding program that increased employee satisfaction"
+      ],
+      "domain_expertise": ["Human Resources", "Recruitment"],
+      "certifications": ["SHRM-CP", "Certified Professional in Human Resources (PHR)"]
+    }
+  },
+  {
+    "input": "Full-Stack Developer with 5 years of experience building web applications with JavaScript, Python, and MongoDB. Expertise in both front-end (React) and back-end (Node.js) development, with a strong focus on API development and performance optimization.",
+    "output": {
+      "technical_skills": ["JavaScript", "Python", "MongoDB", "React", "Node.js"],
+      "years_of_experience": 5,
+      "education": {"level": "Bachelor's", "field": "Software Engineering"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Built scalable APIs for high-traffic websites",
+        "Optimized front-end performance, reducing load time by 30%",
+        "Collaborated on Agile teams to deliver new features every two weeks"
+      ],
+      "domain_expertise": ["Web Development", "Software Engineering"],
+      "certifications": []
+    }
+  },
+  {
+    "input": "Marketing Director with 12 years of experience in brand strategy, digital marketing, and content creation. Proven success in increasing brand visibility and driving revenue growth through targeted digital campaigns and strategic partnerships.",
+    "output": {
+      "technical_skills": ["Brand Strategy", "Digital Marketing", "Content Creation", "Campaign Management"],
+      "years_of_experience": 12,
+      "education": {"level": "Master's", "field": "Marketing"},
+      "experience_level": "Senior",
+      "key_achievements": [
+        "Increased brand awareness by 40% through a digital marketing strategy",
+        "Successfully launched a global product campaign that generated $2M in sales",
+        "Formed strategic partnerships that doubled website traffic"
+      ],
+      "domain_expertise": ["Marketing", "Branding"],
+      "certifications": ["Google Analytics Certified", "HubSpot Inbound Marketing Certified"]
+    }
+  },
+  {
+    "input": "Business Analyst with 7 years of experience in data analysis, business process optimization, and financial reporting. Proficient in SQL, Excel, and data visualization tools like Tableau. Adept at translating complex data into actionable business insights.",
+    "output": {
+      "technical_skills": ["SQL", "Excel", "Tableau", "Data Analysis", "Financial Reporting"],
+      "years_of_experience": 7,
+      "education": {"level": "Bachelor's", "field": "Business Administration"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Automated financial reporting process, reducing time by 50%",
+        "Developed Tableau dashboards to track business performance",
+        "Provided key insights that led to a 15% improvement in business operations"
+      ],
+      "domain_expertise": ["Business Analysis", "Finance"],
+      "certifications": ["Certified Business Analysis Professional (CBAP)", "Tableau Desktop Specialist"]
+    }
+  },
+  {
+    "input": "Product Manager with 5 years of experience in managing product lifecycle from concept to launch. Strong background in Agile methodologies, product strategy, and market analysis. Led cross-functional teams to develop and launch 3 successful products.",
+    "output": {
+      "technical_skills": ["Product Management", "Agile", "Market Analysis", "Product Strategy"],
+      "years_of_experience": 5,
+      "education": {"level": "Bachelor's", "field": "Business Management"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Successfully launched 3 products, each with a user base of 50K+",
+        "Increased product adoption by 20% through improved user experience",
+        "Developed product roadmap that aligned with company goals"
+      ],
+      "domain_expertise": ["Product Management", "Tech"],
+      "certifications": ["Certified Scrum Product Owner (CSPO)"]
+    }
+  },
+  {
+    "input": "SEO Specialist with 3 years of experience in search engine optimization and content strategy. Proven track record of improving organic search rankings and driving targeted traffic to websites. Skilled in keyword research, link building, and content optimization.",
+    "output": {
+      "technical_skills": ["SEO", "Keyword Research", "Link Building", "Content Strategy"],
+      "years_of_experience": 3,
+      "education": {"level": "Bachelor's", "field": "Marketing"},
+      "experience_level": "Junior",
+      "key_achievements": [
+        "Increased organic traffic by 50% in 6 months",
+        "Successfully optimized on-page content that boosted rankings for targeted keywords",
+        "Developed backlink strategy that improved domain authority by 20%"
+      ],
+      "domain_expertise": ["SEO", "Digital Marketing"],
+      "certifications": ["Google Analytics Certified", "HubSpot SEO Certified"]
+    }
+  },
+  {
+    "input": "Software Test Engineer with 6 years of experience in automated and manual testing for web and mobile applications. Expertise in test scripting, bug tracking, and ensuring high-quality software delivery in Agile environments.",
+    "output": {
+      "technical_skills": ["Automated Testing", "Manual Testing", "Bug Tracking", "Test Scripting"],
+      "years_of_experience": 6,
+      "education": {"level": "Bachelor's", "field": "Computer Science"},
+      "experience_level": "Mid-level",
+      "key_achievements": [
+        "Developed automated test scripts that reduced testing time by 40%",
+        "Improved defect detection rate by 30% through enhanced test case design",
+        "Collaborated with cross-functional teams to ensure smooth deployment"
+      ],
+      "domain_expertise": ["Software Testing", "Quality Assurance"],
+      "certifications": ["ISTQB Certified Tester"]
+    }
+  }
+]

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend_django
+      dockerfile: Dockerfile
+    volumes:
+      - static_volume:/app/static
+      - media_volume:/app/media
+    env_file:
+      - ./backend_django/.env
+    restart: always
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl
+      - static_volume:/app/static
+      - media_volume:/app/media
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  static_volume:
+  media_volume:

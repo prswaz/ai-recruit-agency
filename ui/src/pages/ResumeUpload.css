@@ -1,0 +1,109 @@
+/* Resume Upload Page */
+
+.resume-upload-page {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-3xl);
+}
+
+.upload-card {
+    background: white;
+    border-radius: var(--radius-xl);
+    padding: var(--space-xl);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-light);
+}
+
+.drop-zone {
+    border: 2px dashed var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: var(--space-2xl);
+    background: var(--bg-body);
+    transition: all 0.3s ease;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.drop-zone.dragging {
+    border-color: var(--primary-color);
+    background: var(--primary-50);
+    transform: scale(1.01);
+}
+
+.drop-zone.has-file {
+    background: var(--primary-50);
+    border-style: solid;
+    border-color: var(--primary-200);
+}
+
+.upload-icon-circle {
+    width: 64px;
+    height: 64px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: var(--shadow-sm);
+}
+
+.file-preview {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.file-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--bg-body);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-info {
+    flex: 1;
+    text-align: left;
+}
+
+.file-name {
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 2px;
+    word-break: break-all;
+}
+
+.file-size {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.remove-btn {
+    padding: 8px;
+    color: var(--text-muted);
+}
+
+.remove-btn:hover {
+    color: var(--accent-error);
+    background: var(--bg-body);
+    border-radius: var(--radius-full);
+}
+
+.success-icon-wrapper {
+    display: inline-flex;
+    padding: 20px;
+    border-radius: 50%;
+    background: #dcfce7;
+    margin-bottom: var(--space-lg);
+}

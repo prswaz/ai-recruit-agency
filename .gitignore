@@ -1,0 +1,138 @@
+##############################
+# Python / Django
+##############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+*.log
+local_settings.py
+settings_local.py
+db.sqlite3
+
+##############################
+# Django media & static
+##############################
+media/
+staticfiles/
+static_root/
+uploads/
+
+##############################
+# React / Frontend
+##############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+build/
+dist/
+.next/
+out/
+
+.env
+.env.local
+.env.development
+.env.production
+
+##############################
+# SQL Server
+##############################
+*.mdf
+*.ldf
+*.bak
+
+##############################
+# AI / ML / Data Science
+##############################
+# Datasets
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+
+# Trained models & checkpoints (VERY IMPORTANT)
+models/
+checkpoints/
+weights/
+saved_models/
+trained_models/
+runs/
+experiments/
+
+# Large ML files
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+*.pickle
+*.npz
+*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+##############################
+# Cache / temp
+##############################
+.cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.tox/
+.tmp/
+temp/
+tmp/
+
+##############################
+# OS / Editor
+##############################
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+##############################
+# Docker
+##############################
+docker-data/
+docker-volumes/
+
+##############################
+# Logs
+##############################
+logs/
+*.log
+
+##############################
+# Large files safety net
+##############################
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+##############################
+# SQLite
+##############################
+*.sqlite3
+*.sqlite
+*.db
+db.sqlite3

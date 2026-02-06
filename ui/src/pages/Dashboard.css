@@ -1,0 +1,233 @@
+/* Modern Dashboard Styles */
+
+.dashboard-page {
+    background-color: var(--bg-body);
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: var(--space-xl);
+}
+
+.dashboard-body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: var(--space-lg);
+}
+
+.stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-xl);
+    padding: var(--space-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Circular Stat Card */
+.circular-stat-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+}
+
+.circular-progress-wrapper {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.circular-chart-lg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: var(--bg-secondary);
+    stroke-width: 3;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    transition: stroke-dasharray 1s ease-out;
+}
+
+.percentage {
+    fill: var(--text-main);
+    font-weight: 700;
+    font-size: 0.8em;
+    text-anchor: middle;
+}
+
+.stat-info-center h3 {
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+}
+
+.stat-info-center p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+/* Icon Box */
+.icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-blue-100 {
+    background: #dbeafe;
+}
+
+.text-blue-600 {
+    color: #2563eb;
+}
+
+.bg-purple-100 {
+    background: #f3e8ff;
+}
+
+.text-purple-600 {
+    color: #9333ea;
+}
+
+.bg-amber-100 {
+    background: #fef3c7;
+}
+
+.text-amber-600 {
+    color: #d97706;
+}
+
+.stat-content h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.stat-content p {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Main Grid Layout */
+.dashboard-main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--space-xl);
+    align-items: start;
+}
+
+/* Sidebar */
+.action-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.action-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    font-size: 0.95rem;
+    padding: var(--space-sm) 0;
+}
+
+.checkbox-visual {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.checkbox-visual.checked {
+    background: var(--accent-success);
+    border-color: var(--accent-success);
+}
+
+.action-item.done span {
+    text-decoration: line-through;
+    color: var(--text-muted);
+}
+
+.info-icon-small {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--bg-body);
+    color: var(--text-muted);
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: help;
+}
+
+/* Premium Card */
+.promo-card.premium-glow {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bg-gradient-premium {
+    background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.3), transparent 70%);
+}
+
+.btn-white {
+    background: white;
+    color: #4f46e5;
+    font-weight: 700;
+    border: none;
+}
+
+.text-blue-100 {
+    color: #e0e7ff;
+}
+
+@media (max-width: 1024px) {
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dashboard-main-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}

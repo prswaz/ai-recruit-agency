@@ -1,0 +1,111 @@
+/* Premium MyApplications Styles */
+
+.applications-page {
+    padding-bottom: var(--spacing-12);
+}
+
+.applications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: var(--spacing-8);
+}
+
+/* Application Card */
+.application-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    position: relative;
+    border: 1px solid var(--border-color);
+    background: white;
+}
+
+.company-logo-mini {
+    width: 48px;
+    height: 48px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Badges */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.status-pending {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.status-interview {
+    background-color: #f3e8ff;
+    color: #9333ea;
+}
+
+.status-accepted {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.status-rejected {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* Empty State */
+.empty-state-card {
+    margin-top: var(--spacing-12);
+    border-radius: var(--radius-2xl);
+    background: linear-gradient(135deg, white 0%, #f8fafc 100%);
+    border: 1px dashed var(--border-color);
+}
+
+.empty-icon-box {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: var(--radius-2xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+    .applications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .application-card {
+        max-width: 100%;
+    }
+
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .applications-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

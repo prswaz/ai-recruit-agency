@@ -1,0 +1,157 @@
+.ai-timeline-container {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-8);
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: var(--shadow-lg);
+    /* اضافه شده برای راست‌چین سازی */
+    direction: rtl; 
+    text-align: right;
+}
+
+.ai-timeline-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    margin-bottom: var(--spacing-8);
+    border-bottom: 1px solid var(--bg-secondary);
+    padding-bottom: var(--spacing-4);
+}
+
+.ai-timeline-header h3 {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.ai-timeline-steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-step {
+    display: flex;
+    position: relative;
+    padding-bottom: var(--spacing-8);
+}
+
+.timeline-step:last-child {
+    padding-bottom: 0;
+}
+
+.step-connector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* تغییر از margin-right به margin-left برای حالت RTL */
+    margin-left: var(--spacing-4); 
+    width: 24px;
+}
+
+.step-dot {
+    width: 24px;
+    height: 24px;
+    border-radius: var(--radius-full);
+    background-color: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 10;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dot-inner {
+    width: 8px;
+    height: 8px;
+    background-color: var(--text-muted);
+    border-radius: var(--radius-full);
+}
+
+.step-line {
+    width: 2px;
+    flex-grow: 1;
+    background-color: var(--bg-secondary);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transition: background-color 0.6s ease;
+}
+
+/* Active State */
+.timeline-step.active .step-dot {
+    background-color: var(--primary-color);
+    box-shadow: 0 0 0 4px var(--primary-light);
+}
+
+.timeline-step.active .dot-inner {
+    background-color: white;
+}
+
+.timeline-step.active .step-label {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+/* Completed State */
+.timeline-step.completed .step-dot {
+    background-color: var(--accent-success);
+}
+
+.timeline-step.completed .step-line {
+    background-color: var(--accent-success);
+}
+
+.step-content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+    flex: 1;
+}
+
+.step-icon-wrapper {
+    color: var(--text-muted);
+    transition: color 0.3s ease;
+    /* اطمینان از عدم چرخش اشتباه آیکون‌ها در حالت RTL */
+    display: flex;
+    align-items: center;
+}
+
+.timeline-step.active .step-icon-wrapper {
+    color: var(--primary-color);
+}
+
+.timeline-step.completed .step-icon-wrapper {
+    color: var(--accent-success);
+}
+
+.step-label {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+}
+
+.step-status {
+    /* تغییر از margin-left به margin-right برای فرستادن متن "در حال پردازش" به دورترین نقطه سمت چپ */
+    margin-right: auto; 
+    font-size: var(--font-size-xs);
+    color: var(--primary-color);
+    font-weight: 700;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+@keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 3s linear infinite;
+}
